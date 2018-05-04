@@ -454,7 +454,7 @@
 			baseConfigurationReference = FEF9F595635B73AA1B0C82BD /* Pods-Common-FontAdjustedLabel.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Info/FontAdjustedLabel.plist;
@@ -477,7 +477,7 @@
 			baseConfigurationReference = 0092AC59E365EA7FD57C4558 /* Pods-Common-FontAdjustedLabel.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CURRENT_PROJECT_VERSION = 0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = Info/FontAdjustedLabel.plist;
