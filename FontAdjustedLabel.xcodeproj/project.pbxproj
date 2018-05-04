@@ -12,7 +12,7 @@
 		A266D750386F855A185977FD /* Pods_Common_FontAdjustedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6A34DF634B95AB833F7386 /* Pods_Common_FontAdjustedLabel.framework */; };
 		C9655F87BAB99A857F6E5A16 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816B1E730DD2688C3208D15 /* Main.swift */; };
 		EA7CCC7AE96AE52076C0851B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C21A7D807A9B3E496C36EC /* Foundation.framework */; };
-		F886D68AFD169B27EA48C9A7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319295C1D0CAA9801899ED4 /* Main.swift */; };
+		F886D68AFD169B27EA48C9A7 /* FontAdjustedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319295C1D0CAA9801899ED4 /* FontAdjustedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		0092AC59E365EA7FD57C4558 /* Pods-Common-FontAdjustedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabel/Pods-Common-FontAdjustedLabel.debug.xcconfig"; sourceTree = "<group>"; };
 		1BF6289F4BAC9CAD974DF742 /* Pods-Common-FontAdjustedLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabelTests/Pods-Common-FontAdjustedLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		34759B7B1B06A7CE923D9414 /* Pods_Common_FontAdjustedLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_FontAdjustedLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4319295C1D0CAA9801899ED4 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		4319295C1D0CAA9801899ED4 /* FontAdjustedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontAdjustedLabel.swift; sourceTree = "<group>"; };
 		555A5B7F8310369D4DC36019 /* Pods-Common-FontAdjustedLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabelTests/Pods-Common-FontAdjustedLabelTests.release.xcconfig"; sourceTree = "<group>"; };
 		66C21A7D807A9B3E496C36EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		771F58DD8D0FDA71068FDEE3 /* FontAdjustedLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAdjustedLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAA9D4916F68E7FBF0413AAA /* FontAdjustedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAdjustedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9D4916F68E7FBF0413AAA /* FontAdjustedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAdjustedLabel.framework; path = XCEFontAdjustedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6A34DF634B95AB833F7386 /* Pods_Common_FontAdjustedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_FontAdjustedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D816B1E730DD2688C3208D15 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		FEF9F595635B73AA1B0C82BD /* Pods-Common-FontAdjustedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabel/Pods-Common-FontAdjustedLabel.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,7 +90,6 @@
 				61754EBC0875B8B8E4F240F7 /* FontAdjustedLabel */,
 				D3EB32DCC2CDD19E59CA274F /* FontAdjustedLabelTests */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -107,9 +106,8 @@
 		61754EBC0875B8B8E4F240F7 /* FontAdjustedLabel */ = {
 			isa = PBXGroup;
 			children = (
-				4319295C1D0CAA9801899ED4 /* Main.swift */,
+				4319295C1D0CAA9801899ED4 /* FontAdjustedLabel.swift */,
 			);
-			name = FontAdjustedLabel;
 			path = FontAdjustedLabel;
 			sourceTree = "<group>";
 		};
@@ -129,7 +127,6 @@
 			children = (
 				D816B1E730DD2688C3208D15 /* Main.swift */,
 			);
-			name = FontAdjustedLabelTests;
 			path = FontAdjustedLabelTests;
 			sourceTree = "<group>";
 		};
@@ -165,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = "$local";
+			name = $local;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi";
-			showEnvVarsInLog = 1;
 		};
 		9D1B6658844869468E790B17 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -324,7 +320,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi";
-			showEnvVarsInLog = 1;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -341,7 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F886D68AFD169B27EA48C9A7 /* Main.swift in Sources */,
+				F886D68AFD169B27EA48C9A7 /* FontAdjustedLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
