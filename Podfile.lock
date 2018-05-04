@@ -1,0 +1,20 @@
+PODS:
+  - XCERequirement (1.6.0)
+  - XCETesting (1.2.0):
+    - XCERequirement (~> 1.5)
+
+DEPENDENCIES:
+  - XCETesting (~> 1.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - XCERequirement
+    - XCETesting
+
+SPEC CHECKSUMS:
+  XCERequirement: 4dbe5a3e19b4784dc3c6943ec9b929e7f7dd7ff5
+  XCETesting: d675bc94b51d9deff7c628b0e77aebdac306e591
+
+PODFILE CHECKSUM: 1043ae48b891cd5153af1f6e70c4e31b9e548b1e
+
+COCOAPODS: 1.5.0

@@ -42,7 +42,7 @@ let depTarget = Template.XCE
     .DeploymentTarget
     .with(
         name: .iOS,
-        minimumVersion: "8.0"
+        minimumVersion: "9.0"
     )
 
 let targetName = (

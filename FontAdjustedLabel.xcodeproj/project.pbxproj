@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B45DF8A6B1CE154291F549 /* Pods_Common_FontAdjustedLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34759B7B1B06A7CE923D9414 /* Pods_Common_FontAdjustedLabelTests.framework */; };
+		77F6692043D2D52708F286CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C21A7D807A9B3E496C36EC /* Foundation.framework */; };
+		A266D750386F855A185977FD /* Pods_Common_FontAdjustedLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC6A34DF634B95AB833F7386 /* Pods_Common_FontAdjustedLabel.framework */; };
+		C9655F87BAB99A857F6E5A16 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816B1E730DD2688C3208D15 /* Main.swift */; };
+		EA7CCC7AE96AE52076C0851B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C21A7D807A9B3E496C36EC /* Foundation.framework */; };
+		F886D68AFD169B27EA48C9A7 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319295C1D0CAA9801899ED4 /* Main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460F453A5C146D7759E0E190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4737BA578371F29C05CD5EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51DF12A5E352A2E6B106637F;
+			remoteInfo = FontAdjustedLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1EE47C17C8D3A2DBBC0EF4FB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		359C1663CE67242B2F365ADB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0092AC59E365EA7FD57C4558 /* Pods-Common-FontAdjustedLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabel/Pods-Common-FontAdjustedLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		1BF6289F4BAC9CAD974DF742 /* Pods-Common-FontAdjustedLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabelTests/Pods-Common-FontAdjustedLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		34759B7B1B06A7CE923D9414 /* Pods_Common_FontAdjustedLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_FontAdjustedLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4319295C1D0CAA9801899ED4 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		555A5B7F8310369D4DC36019 /* Pods-Common-FontAdjustedLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabelTests/Pods-Common-FontAdjustedLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		66C21A7D807A9B3E496C36EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		771F58DD8D0FDA71068FDEE3 /* FontAdjustedLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAdjustedLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAA9D4916F68E7FBF0413AAA /* FontAdjustedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAdjustedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6A34DF634B95AB833F7386 /* Pods_Common_FontAdjustedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common_FontAdjustedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D816B1E730DD2688C3208D15 /* Main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		FEF9F595635B73AA1B0C82BD /* Pods-Common-FontAdjustedLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common-FontAdjustedLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-Common-FontAdjustedLabel/Pods-Common-FontAdjustedLabel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A016D0FCBAAAE4E8CC0435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F6692043D2D52708F286CF /* Foundation.framework in Frameworks */,
+				A266D750386F855A185977FD /* Pods_Common_FontAdjustedLabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65F1397DC5C19DA0ACD247E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7CCC7AE96AE52076C0851B /* Foundation.framework in Frameworks */,
+				11B45DF8A6B1CE154291F549 /* Pods_Common_FontAdjustedLabelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D4FD734A487796CCCB4D86 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				61754EBC0875B8B8E4F240F7 /* FontAdjustedLabel */,
+				D3EB32DCC2CDD19E59CA274F /* FontAdjustedLabelTests */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		4F38D8D6CA90B183FE757716 = {
+			isa = PBXGroup;
+			children = (
+				C3C82427671DE418C08EB195 /* Frameworks */,
+				E7346A5CEA9CFD80963DF8A8 /* Pods */,
+				E607BA27047DCF85775EFA83 /* Products */,
+				06D4FD734A487796CCCB4D86 /* Sources */,
+			);
+			sourceTree = "<group>";
+		};
+		61754EBC0875B8B8E4F240F7 /* FontAdjustedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				4319295C1D0CAA9801899ED4 /* Main.swift */,
+			);
+			name = FontAdjustedLabel;
+			path = FontAdjustedLabel;
+			sourceTree = "<group>";
+		};
+		C3C82427671DE418C08EB195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C42AF4A9C6ECDBD0AE906F /* $local */,
+				D891008EAC59CC93C6845AEC /* iOS */,
+				CC6A34DF634B95AB833F7386 /* Pods_Common_FontAdjustedLabel.framework */,
+				34759B7B1B06A7CE923D9414 /* Pods_Common_FontAdjustedLabelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3EB32DCC2CDD19E59CA274F /* FontAdjustedLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				D816B1E730DD2688C3208D15 /* Main.swift */,
+			);
+			name = FontAdjustedLabelTests;
+			path = FontAdjustedLabelTests;
+			sourceTree = "<group>";
+		};
+		D891008EAC59CC93C6845AEC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				66C21A7D807A9B3E496C36EC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E607BA27047DCF85775EFA83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA9D4916F68E7FBF0413AAA /* FontAdjustedLabel.framework */,
+				771F58DD8D0FDA71068FDEE3 /* FontAdjustedLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7346A5CEA9CFD80963DF8A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0092AC59E365EA7FD57C4558 /* Pods-Common-FontAdjustedLabel.debug.xcconfig */,
+				FEF9F595635B73AA1B0C82BD /* Pods-Common-FontAdjustedLabel.release.xcconfig */,
+				1BF6289F4BAC9CAD974DF742 /* Pods-Common-FontAdjustedLabelTests.debug.xcconfig */,
+				555A5B7F8310369D4DC36019 /* Pods-Common-FontAdjustedLabelTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3C42AF4A9C6ECDBD0AE906F /* $local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "$local";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41B2ABF5966748893C2F124A /* FontAdjustedLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763EF21B4D38597702D3721B /* Build configuration list for PBXNativeTarget "FontAdjustedLabelTests" */;
+			buildPhases = (
+				FE725A25701A055EE956347D /* SwiftLint */,
+				BEC9E6A427BF5BDC7CE9AF8C /* [CP] Check Pods Manifest.lock */,
+				BC1B853C8EBBE29B28B77AF9 /* Sources */,
+				B65F1397DC5C19DA0ACD247E /* Frameworks */,
+				359C1663CE67242B2F365ADB /* Embed Frameworks */,
+				9D1B6658844869468E790B17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F938D23163F28389E7E6530 /* PBXTargetDependency */,
+			);
+			name = FontAdjustedLabelTests;
+			productName = FontAdjustedLabelTests;
+			productReference = 771F58DD8D0FDA71068FDEE3 /* FontAdjustedLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		51DF12A5E352A2E6B106637F /* FontAdjustedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C51070F647D2CB28C5192835 /* Build configuration list for PBXNativeTarget "FontAdjustedLabel" */;
+			buildPhases = (
+				4DACD54D8560F4F50127986C /* SwiftLint */,
+				D87E11B6757C57EA1DC892E1 /* [CP] Check Pods Manifest.lock */,
+				D39E3887CD9247D31FEBB222 /* Sources */,
+				91A016D0FCBAAAE4E8CC0435 /* Frameworks */,
+				1EE47C17C8D3A2DBBC0EF4FB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAdjustedLabel;
+			productName = FontAdjustedLabel;
+			productReference = BAA9D4916F68E7FBF0413AAA /* FontAdjustedLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4737BA578371F29C05CD5EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				Struct.Version = 2.1.0;
+			};
+			buildConfigurationList = 1A107D3D55D8348B5CC95522 /* Build configuration list for PBXProject "FontAdjustedLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4F38D8D6CA90B183FE757716;
+			productRefGroup = E607BA27047DCF85775EFA83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51DF12A5E352A2E6B106637F /* FontAdjustedLabel */,
+				41B2ABF5966748893C2F124A /* FontAdjustedLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DACD54D8560F4F50127986C /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi";
+			showEnvVarsInLog = 1;
+		};
+		9D1B6658844869468E790B17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Common-FontAdjustedLabelTests/Pods-Common-FontAdjustedLabelTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XCERequirement/XCERequirement.framework",
+				"${BUILT_PRODUCTS_DIR}/XCETesting/XCETesting.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCERequirement.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCETesting.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Common-FontAdjustedLabelTests/Pods-Common-FontAdjustedLabelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC9E6A427BF5BDC7CE9AF8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Common-FontAdjustedLabelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D87E11B6757C57EA1DC892E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Common-FontAdjustedLabel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE725A25701A055EE956347D /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n        swiftlint\n    else\n        echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n    fi";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1B853C8EBBE29B28B77AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9655F87BAB99A857F6E5A16 /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39E3887CD9247D31FEBB222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F886D68AFD169B27EA48C9A7 /* Main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F938D23163F28389E7E6530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAdjustedLabel;
+			target = 51DF12A5E352A2E6B106637F /* FontAdjustedLabel */;
+			targetProxy = 460F453A5C146D7759E0E190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DC88227E59B6A1EDC842172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		50265643F57E2281B5549D7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		67EB8A05AAA34A8E64C94EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEF9F595635B73AA1B0C82BD /* Pods-Common-FontAdjustedLabel.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 0;
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Info/FontAdjustedLabel.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XCEssentials.FontAdjustedLabel;
+				PRODUCT_NAME = XCEFontAdjustedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8388ECDC6E20B6A3144C2A7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0092AC59E365EA7FD57C4558 /* Pods-Common-FontAdjustedLabel.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CURRENT_PROJECT_VERSION = 0;
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = Info/FontAdjustedLabel.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = true;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XCEssentials.FontAdjustedLabel;
+				PRODUCT_NAME = XCEFontAdjustedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D2CD97CBC820D1044F357A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF6289F4BAC9CAD974DF742 /* Pods-Common-FontAdjustedLabelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				INFOPLIST_FILE = Info/FontAdjustedLabelTests.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = true;
+				PRODUCT_BUNDLE_IDENTIFIER = com.XCEssentials.FontAdjustedLabel.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECED3448460B4F9B1C53032E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555A5B7F8310369D4DC36019 /* Pods-Common-FontAdjustedLabelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				INFOPLIST_FILE = Info/FontAdjustedLabelTests.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.XCEssentials.FontAdjustedLabel.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A107D3D55D8348B5CC95522 /* Build configuration list for PBXProject "FontAdjustedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50265643F57E2281B5549D7D /* Debug */,
+				3DC88227E59B6A1EDC842172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		763EF21B4D38597702D3721B /* Build configuration list for PBXNativeTarget "FontAdjustedLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2CD97CBC820D1044F357A46 /* Debug */,
+				ECED3448460B4F9B1C53032E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C51070F647D2CB28C5192835 /* Build configuration list for PBXNativeTarget "FontAdjustedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8388ECDC6E20B6A3144C2A7B /* Debug */,
+				67EB8A05AAA34A8E64C94EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4737BA578371F29C05CD5EC0 /* Project object */;
+}
